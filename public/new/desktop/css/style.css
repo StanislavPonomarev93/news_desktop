@@ -2337,7 +2337,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   -webkit-box-flex: 0;
   -ms-flex: 0 1 605px;
   flex: 0 1 605px;
-  margin-right: 205px;
+  margin-right: 280px;
   margin-bottom: 17px;
   margin-top: -5px;
 }
@@ -6902,7 +6902,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .author-block__author a:hover,
 .item-news__author:hover,
 .news-all__subhead a:hover,
-.articles-sidebar__subheader a:hover {
+.articles-sidebar__subheader a:hover,
+.y2nli824se:hover {
   color: #be2729;
 }
 
