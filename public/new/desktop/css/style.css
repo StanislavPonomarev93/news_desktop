@@ -6904,7 +6904,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .item-news__author:hover,
 .news-all__subhead a:hover,
 .articles-sidebar__subheader a:hover,
-.y2nli824se:hover {
+.timeline-sidebar__articles:hover {
   color: #be2729;
 }
 
@@ -8246,8 +8246,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .page__main {
   max-width: 930px;
 }
-.y2nli824se {
+.timeline-sidebar__articles {
   width: 100%;
+  color: #00000080;
+  font-size: 18px;
 }
 .baner {
   width: 100%;
