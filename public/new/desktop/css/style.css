@@ -585,7 +585,8 @@ textarea.input._focus {
 
 .bem-main-opinion__image {
   display: block;
-  height: 340px;
+  min-height: 340px;
+  height: 100%;
   position: relative;
   overflow: hidden;
 }
