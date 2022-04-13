@@ -7575,6 +7575,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 5px;
 }
+.news-discuss__name:hover {
+  color: #ad1e1e99;
+}
 .news-discuss__subtitle {
   line-height: 30px;
 }
