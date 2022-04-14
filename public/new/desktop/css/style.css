@@ -8047,10 +8047,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   line-height: 170%;
 }
 .page-edition__text a {
-font-family: 'CoFo Sans';
-font-weight: 700;
-font-size: 18px;
-color: #BE2729;
+  font-family: "CoFo Sans";
+  font-weight: 700;
+  font-size: 18px;
+  color: #be2729;
 }
 .page-edition__contacts-container {
   display: flex;
@@ -8060,52 +8060,52 @@ color: #BE2729;
   padding-right: 90px;
 }
 .page-edition__text-title {
-  font-family: 'CoFo Sans';
-font-weight: 500;
-font-size: 20px;
-color: #BE2729;
-margin-bottom: 25px;
+  font-family: "CoFo Sans";
+  font-weight: 500;
+  font-size: 20px;
+  color: #be2729;
+  margin-bottom: 25px;
 }
 .page-edition__sections {
-display: flex;
-justify-content: space-between;
-margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
 }
 .page-edition__section {
   width: 285px;
 }
 .download-link {
-  font-family: 'PT Sans Caption';
-font-size: 16px;
-line-height: 170%;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF;
-background: #BE2729;
-border-radius: 5px;
-padding: 5px 0;
-width: 250px;
-display: block;
-position: absolute;
-bottom: 0;
-left: 0;
+  font-family: "PT Sans Caption";
+  font-size: 16px;
+  line-height: 170%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #be2729;
+  border-radius: 5px;
+  padding: 5px 0;
+  width: 250px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 .download-link:hover {
-background: #d55052;
+  background: #d55052;
 }
 .page-edition__name {
-  font-family: 'CoFo Sans';
-font-weight: 500;
-font-size: 20px;
-line-height: 25px;
-color: rgba(0, 0, 0, 0.7);
+  font-family: "CoFo Sans";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.7);
 }
 .page-edition__email {
-  font-family: 'Georgia';
-font-size: 18px;
-line-height: 170%;
-color: rgba(0, 0, 0, 0.5);
-margin-top: 15px;
+  font-family: "Georgia";
+  font-size: 18px;
+  line-height: 170%;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 15px;
 }
 .page-edition__sections-container {
   position: relative;
@@ -8131,4 +8131,152 @@ margin-top: 15px;
 }
 .page-edition__section .page-edition__section-item:last-child {
   margin: 0;
+}
+.page-author {
+  width: 930px;
+  padding-bottom: 70px;
+}
+.page-author__container {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  padding-bottom: 64px;
+  margin-bottom: 60px;
+}
+.page-author__data-container {
+margin-left: 70px;
+}
+.page-author__name {
+  font-family: 'CoFo Sans';
+font-size: 20px;
+line-height: 170%;
+color: #000000;
+}
+.page-author__data-container .page-edition__email {
+  margin: 0;
+}
+.news-section {
+  width: 100%;
+}
+.news-section__nav {
+  display: flex;
+  margin-bottom: 35px;
+}
+.news-section__nav-item_main,
+.news-section__nav-item {
+  font-family: 'CoFo Sans';
+font-size: 20px;
+color: rgba(0, 0, 0, 0.7);
+}
+.news-section__nav-item_main {
+font-weight: 700;
+}
+.news-section__nav-item {
+font-weight: 400;
+}
+.news-section__nav-item_main:hover,
+.news-section__nav-item:hover {
+opacity: 0.7;
+}
+.news-section__title {
+  font-family: 'Georgia';
+font-weight: 700;
+font-size: 42px;
+line-height: 140%;
+margin-bottom: 25px;
+}
+.page-author__nav-item_main,
+.page-author__nav-item {
+  font-family: 'CoFo Sans';
+font-size: 20px;
+color: rgba(0, 0, 0, 0.7);
+}
+.page-author__nav-item_main {
+font-weight: 500;
+}
+.page-author__nav-item {
+font-weight: 400;
+}
+.page-author__nav {
+  margin-bottom: 30px;
+}
+.news-section__info-container {
+  position: relative;
+  color: #0009;
+  font-size: 20px;
+  margin-bottom: 43px;
+}
+.news-section__info-container a {
+  color: #0009;
+}
+.news-section__info-container a:hover {
+  color: #be2729;
+}
+.news-section__info-container .news-section__indications {
+  position: absolute;
+  right: 0;
+  color: #4d4d4d;
+  text-decoration: underline;
+}
+.news-section__indications img {
+  margin-right: 13px;
+}
+.news-section__info-container span {
+  color: #0000004d;
+}
+.news-section__img {
+  width: 930px;
+}
+.news-section__text {
+  font-family: 'Georgia';
+font-size: 26px;
+line-height: 140%;
+margin-top: 34px;
+margin-bottom: 35px;
+}
+.news-section__text-label-container {
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 30px 0 30px 45px;
+}
+.news-section__text-label-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  width: 95%;
+}
+.news-section__label-img {
+  position: absolute;
+  top: -11px;
+  left: 0;
+}
+.news-section__text-label {
+  font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 140%;
+}
+.news-section__subtext {
+  font-family: Georgia;
+  line-height: 170%;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.news-section__subtext:last-child {
+  margin: 0;
+}
+.news-section__container-subtext {
+  position: relative;
+  margin-top: 30px;
+}
+.news-section__container-subtext::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, #fff0 0%, #ffffffdb 86.35%, #fff 1.77%);
 }
