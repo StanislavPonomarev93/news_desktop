@@ -8170,6 +8170,7 @@ width: 100%;
 .page-author__materials-item img {
   width: 100%;
   height: 220px;
+  margin-bottom: 20px;
 }
 .page-author__data,
 .page-author__materials-item p a {
