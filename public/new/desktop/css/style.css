@@ -8087,7 +8087,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   width: 250px;
   display: block;
   position: absolute;
-  bottom: 0;
+  bottom: 8px;
   left: 0;
 }
 .download-link:hover {
